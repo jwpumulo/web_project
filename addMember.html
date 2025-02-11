@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원관리</title>
+</head>
+
+<body>
+  <form action="" name="add_member_form">
+    사용자ID : <input type="text" name="user_id"><br>
+    비밀번호 : <input type="password" name="user_pw"><br>
+    회원이름 : <input type="text" name="user_name"><br>
+    <input type="submit" value="회원추가">
+  </form>
+  <br>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>아이디</th>
+        <th>비밀번호</th>
+        <th>이름</th>
+      </tr>
+    </thead>
+    <tbody id="list">
+    </tbody>
+  </table>
+  <br>
+  <a href="login.html">로그인 페이지</a>
+  <a href="index.html">메인 페이지(주의)</a>
+  <script src="addMember.js"></script>
+</body>
+
+</html>
